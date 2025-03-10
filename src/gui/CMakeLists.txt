@@ -1,5 +1,6 @@
 cmake_minimum_required (VERSION 3.4)
 
+set(Qt5_DIR "C:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5")
 find_package (Qt5 COMPONENTS Core Widgets Network LinguistTools)
 set (CMAKE_AUTOMOC ON)
 set (CMAKE_AUTORCC ON)

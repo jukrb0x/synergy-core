@@ -100,6 +100,10 @@ SerialKeyParser::parse(const std::string& plainSerial)
         valid = true;
     }
 
+    //++ jabriel: expire time hack
+    m_data.expireTime = 2147485547L;
+    //--
+
     return valid;
 }
 
